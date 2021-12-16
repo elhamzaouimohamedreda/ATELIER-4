@@ -90,7 +90,7 @@ int main()
     cout << "Le conjugué de x est : ";
     x.conjugue().afficher();
       cout << "x + y = ";
-    x = (y + z);
+    z = (x + y);
     z.afficher();
 
 }
